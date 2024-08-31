@@ -66,7 +66,7 @@ twice(addTwo, 2); // => 6
 
 ## Interpreter parts
 
-The interpreter tokenizes and parses Monkey source code in a REPL(Read-Eval-Print-Loop), buils up an internal representation of the code called abstract syntax tree (AST) and evaluates this tree. It features these major parts:
+The interpreter tokenizes and parses Monkey source code in a REPL(Read-Eval-Print-Loop), builds up an internal representation of the code called abstract syntax tree (AST) and evaluates this tree. It features these major parts:
 
 - The lexer: transforms source code into tokens.
 - The parser: takes the tokens and constructs the Abstract Syntax Tree (AST).
